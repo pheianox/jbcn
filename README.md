@@ -51,7 +51,7 @@ In this example we create a dynamic component which takes a couple of predefined
 *App.jsx*
 ```jsx
 import React from "react";
-import "index.css";
+import "styles.css";
 import jbcn from "jbcn";
 
 
