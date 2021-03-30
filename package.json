@@ -1,0 +1,22 @@
+{
+    "name": "jbcn",
+    "version": "1.0.0",
+    "description": "A lightweight module for working with dynamic class names.",
+    "main": "/src/index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pheianox/jbcn.git"
+    },
+    "author": "Nathan Archer",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pheianox/jbcn/issues"
+    },
+    "homepage": "https://github.com/pheianox/jbcn#readme",
+    "devDependencies": {
+        "jest": "^26.6.3"
+    }
+}
