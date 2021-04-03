@@ -1,6 +1,6 @@
 {
     "name": "jbcn",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A lightweight module for working with dynamic class names.",
     "main": "/src/index.js",
     "scripts": {
