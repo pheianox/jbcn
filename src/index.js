@@ -5,7 +5,7 @@ const INPUT_TYPE_ERROR = "[JBCN] Input must be a descriptive object.";
 const isPureObject = obj => obj !== null && typeof obj === "object" && Object.prototype.toString.call(obj) === "[object Object]";
 
 const jbcn = desc => {
-    if (!isPureObject) return new Error(INPUT_TYPE_ERROR);
+    if (!isPureObject) return new TypeError(INPUT_TYPE_ERROR);
 
     const add = text => (result === "" ? (result += text) : (result += SPACE + text));
 
