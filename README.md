@@ -21,7 +21,7 @@ yarn add jbcn
 
 ## Examples
 ### Basic example
-The idea is to pass a decriptive object into the JBCN function. After that it will  filter those class names based on their valies. It the class name value is falsy it's going to ignore it, otherwise the class name will be included. 
+The idea is to pass a decriptive object into the JBCN function. After that, it will filter those class names out based on their valies. If the class name value is falsy it'll to ignore it.  
 ```js
 // Import jbcn module
 const jbcn = require("jbcn");
@@ -46,7 +46,7 @@ console.log(classNames);
 ### Using with React
 You can use JBCN with React to create customizable components.
 
-In this example we create a dynamic component which takes a couple of predefined class names as prop as well as extra class names. Any extra class name will be added if it's being passed as a prop. That makes our component way poweful.
+In this example we create a dynamic component which takes a couple of predefined class names as a prop as well as extra class names. Any extra class name will be added if it's being passed as a prop. That makes our component way poweful.
 
 *App.jsx*
 ```jsx
@@ -71,9 +71,8 @@ const Button = ({ primary, outline, underline, onClick, children, ...extraClassN
 /*
   Here we create a button with passed props "primary", "outline", "center" "mb-5" and "onClick".
   
-  However as you can see "center" (for centring our button) and "mb-5" (for adding `margin-bottom: 5px`).
-  Those are the two extra class names that are not part of the button's defined class names.
-  In this case out button is going to add them without any problem, with the help of JBCN.
+  However as you can see the class names such as "center" and "mb-5" are not part of the button's defined class names.
+  In this case our button is going to add them without any problem, with the help of JBCN.
 */
 
 const App = () => <Button primary outline center mb-5 onClick={console.log}>Click me</Button>
