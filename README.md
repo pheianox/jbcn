@@ -1,13 +1,13 @@
-# JBCN
+# jbcn
 
 A lightweight module for working with class names.
 
-JBCN provides a really friendly interface for working with dynamic and complex class names.
+jbcn provides a really friendly interface for working with dynamic and complex class names.
 
 * Supports BEM
 
 ## Installation 
-You can install JBCN using npm
+You can install jbcn using npm
 
 ```
 npm install jbcn
@@ -21,7 +21,7 @@ yarn add jbcn
 
 ## Examples
 ### Basic example
-The idea is to pass a decriptive object into the JBCN function. After that, it will filter those class names out based on their valies. If the class name value is falsy it'll to ignore it.  
+The idea is to pass a decriptive object into the jbcn function. After that, it will filter those class names out based on their valies. If the class name value is falsy it'll to ignore it.  
 ```js
 // Import jbcn module
 const jbcn = require("jbcn");
@@ -44,7 +44,7 @@ console.log(classNames);
 <hr>
 
 ### Using with React
-You can use JBCN with React to create customizable components.
+You can use jbcn with React to create customizable components.
 
 In this example we create a dynamic component which takes a couple of predefined class names as a prop as well as extra class names. Any extra class name will be added if it's being passed as a prop. That makes our component way poweful.
 
@@ -72,7 +72,7 @@ const Button = ({ primary, outline, underline, onClick, children, ...extraClassN
   Here we create a button with passed props "primary", "outline", "center" "mb-5" and "onClick".
   
   However as you can see the class names such as "center" and "mb-5" are not part of the button's defined class names.
-  In this case our button is going to add them without any problem, with the help of JBCN.
+  In this case our button is going to add them without any problem, with the help of jbcn.
 */
 
 const App = () => <Button primary outline center mb-5 onClick={console.log}>Click me</Button>
@@ -98,10 +98,10 @@ const App = () => <Button primary outline center mb-5 onClick={console.log}>Clic
 ```
 
 ## Contribution
-Help us to improve this project by requesting new features or refactoring the code base.
+Help us to improve jbcn by requesting new features or refactoring the code base.
 
 ## License
-JBCN is licensed under the MIT license.
+jbcn is licensed under the MIT license.
 
 
 
