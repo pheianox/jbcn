@@ -96,6 +96,10 @@ const App = () => <Button primary outline center mb-5 onClick={console.log}>Clic
 
 ...
 ```
+
+## Contribution
+Help us to improve this project by requesting new features or refactoring the code base.
+
 ## License
 JBCN is licensed under the MIT license.
 
