@@ -60,7 +60,7 @@ import jbcn from "jbcn";
 const Button = ({ primary, outline, underline, onClick, children, ...extraClassNames }) => {
     const classNames = jbcn({ ...extraClassNames, btn: { primary, outline, underline } });
     return (
-        <button onClick={onClick} className={}>
+        <button onClick={onClick} className={classNames}>
             {children}
         </button>
     );
