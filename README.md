@@ -21,7 +21,7 @@ yarn add jbcn
 
 ## Examples
 ### Basic example
-The idea is to pass a decriptive object into the jbcn function. After that, it will filter those class names out based on their valies. If the class name value is falsy it'll to ignore it.  
+The idea is to pass a decriptive object into the jbcn function. After that, it will filter those class names out based on their values. If the class name value is falsy it'll ignore it.  
 ```js
 // Import jbcn module
 const jbcn = require("jbcn");
