@@ -26,7 +26,7 @@ The idea is to pass a decriptive object into the jbcn function. After that, it w
 // Import jbcn module
 const jbcn = require("jbcn");
 
-// Create a variable for the output
+// Configure it 
 const classNames = jbcn({
     tiny: true,
     expand: false,
@@ -38,7 +38,7 @@ const classNames = jbcn({
     }
 });
 
-// Output: "tiny btn btn--alpha btn--beta"
+// See the output "tiny btn btn--alpha btn--beta"
 console.log(classNames);
 ```
 <hr>
@@ -101,7 +101,7 @@ const App = () => <Button primary outline center mb-5 onClick={console.log}>Clic
 Help us to improve jbcn by requesting new features or refactoring the code base.
 
 ## License
-jbcn is licensed under the MIT license.
+MIT
 
 
 
